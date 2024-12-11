@@ -1,0 +1,84 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif; /* Specifies the font family */
+    background-color: #f9f9f9; /* Sets a light background color */
+    color: #333; /* Specifies the font color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style definition 1: Header styling */
+h1 {
+    color: #007BFF; /* Blue font color for headers */
+    text-align: center; /* Centers the text */
+    margin-top: 20px;
+}
+
+/* Style definition 2: Anchor links */
+a {
+    color: #FF5733; /* Orange font color for links */
+    text-decoration: none; /* Removes underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Style definition 3: Div styling for sections */
+#image-section {
+    background-color: #e0f7fa; /* Light blue background */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px; /* Rounded corners */
+    width: 80%; /* Centered and 80% width of the page */
+}
+
+#video-section {
+    background-color: #ffe0b2; /* Light orange background */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 80%;
+}
+
+#graph-section {
+    background-color: #c8e6c9; /* Light green background */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 80%;
+}
+
+/* Style definition 4: List styling */
+ol, ul {
+    font-size: 1.2em; /* Slightly larger text for lists */
+    margin-left: 20px; /* Indents the list */
+    line-height: 1.5; /* Adds spacing between list items */
+}
+
+/* Additional styling for div elements to position content */
+#container {
+    display: flex; /* Flexbox layout for child divs */
+    justify-content: space-around; /* Evenly distributes child divs */
+    margin: 20px auto;
+    width: 90%; /* Centers the container and limits width */
+}
+
+.block {
+    background-color: #ffccbc; /* Light coral background */
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center; /* Centers text within the block */
+    width: 30%; /* Each block takes 30% of the container width */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White font color */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
